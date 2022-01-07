@@ -1,4 +1,19 @@
 version: '3.1'
 
 services:
-  post
+  postgres:
+    image: postgres
+    volume:
+      - ./pgdb/:var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_DB=db_name
+      - POSTGRES_USER=db_user
+      - POSTGRES_PASSWORD='123'
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 8080:8080
+
