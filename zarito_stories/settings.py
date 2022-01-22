@@ -38,13 +38,15 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     #my apps
-    "Home",
-    "About",
-    "Blog",
-    "Contact",
-    "Pages",
-    "Shop",
-    "Accounts"
+    'about',
+    'accounts',
+    'assets',
+    'blog',
+    'contact',
+    'home',
+    'pages',
+    'shop',
+
 ]
 
 MIDDLEWARE = [
@@ -84,11 +86,11 @@ WSGI_APPLICATION = 'zarito_stories.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': BASE_DIR / 'POSTGRES_DB',
-        'USER': 'user_name',
-        'PASSWORD': '123321',
+        'NAME': 'postgres',
+        'USER': 'postgres',
+        'PASSWORD': 'postgres',
         'HOST': '127.0.0.1',
-        'PORT' : 5432
+        'PORT': 5432,
     }
 }
 
