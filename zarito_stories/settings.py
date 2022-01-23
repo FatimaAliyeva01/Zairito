@@ -38,14 +38,14 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     #my apps
-    'about',
-    'accounts',
+    'About',
+    'Accounts',
     'assets',
-    'blog',
-    'contact',
-    'home',
-    'pages',
-    'shop',
+    'Blog',
+    'Contact',
+    'Home',
+    'Pages',
+    'Shop',
 
 ]
 
@@ -90,7 +90,7 @@ DATABASES = {
         'USER': 'postgres',
         'PASSWORD': 'postgres',
         'HOST': '127.0.0.1',
-        'PORT': 5432,
+        'PORT': 5433,
     }
 }
 
