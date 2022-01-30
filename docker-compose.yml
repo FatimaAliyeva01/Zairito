@@ -8,9 +8,9 @@ services:
     ports:
       - "5433:5433"
     environment:
-      - POSTGRES_NAME=postgres
-      - POSTGRES_USER=postgres
-      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_NAME=Django
+      - POSTGRES_USER=Test
+      - POSTGRES_PASSWORD=12345
   adminer:
     image: adminer
     restart: always
