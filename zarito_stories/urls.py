@@ -28,7 +28,7 @@ urlpatterns = [
     path('Pages/',include('Pages.urls',namespace='Pages')),
 #     path('Contact/',include('Contact.urls',namespace='Contact')),
 #     path('About/',include('About.urls',namespace='About')),
-#     path('Blog/',include('Blog.urls',namespace='Blog')),
+    path('Blog/',include('Blog.urls',namespace='Blog')),
 ]  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 
