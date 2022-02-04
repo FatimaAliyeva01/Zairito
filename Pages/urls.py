@@ -3,7 +3,7 @@ from .views import faq
 # Create your views here.
 app_name='Pages'
 urlpatterns = [
-    path('/', faq, name='faq'),
+    path('', faq, name='faq'),
 ]
 
 
