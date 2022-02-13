@@ -30,7 +30,10 @@
 
     </head>
     <body>
-        
+        {%  block content  %}
+        {% endblock content %}
+        {% include 'includes/footer.html' %}
+
         <!-- Page Load Popup Modal End -->
         <div class="modal fade bd-example-modal-lg theme-modal" id="popUpModal" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
