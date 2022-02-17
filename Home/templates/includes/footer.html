@@ -39,12 +39,12 @@
                             <div class="single-widget">
                                 <h3 class="widget-title">Information</h3>
                                 <ul class="widget-menu">
-                                    <li class="menu-item"><a class="menu-link" href="about-us.html">About us</a></li>
-                                    <li class="menu-item"><a class="menu-link" href="blog.html">Blog</a></li>
-                                    <li class="menu-item"><a class="menu-link" href="shop-grid.html">Weekly Deals</a></li>
-                                    <li class="menu-item"><a class="menu-link" href="cart.html">Cart</a></li>
-                                    <li class="menu-item"><a class="menu-link" href="sign-in.html">Sign In</a></li>
-                                    <li class="menu-item"><a class="menu-link" href="sign-up.html">Sign Up</a></li>
+                                    <li class="menu-item"><a class="menu-link" href="{% url 'about-us.html'%}">About us</a></li>
+                                    <li class="menu-item"><a class="menu-link" href="{% url 'blog.html' %}">Blog</a></li>
+                                    <li class="menu-item"><a class="menu-link" href="{% url 'shop-grid.html' %}">Weekly Deals</a></li>
+                                    <li class="menu-item"><a class="menu-link" href="{% url 'cart.html' %}">Cart</a></li>
+                                    <li class="menu-item"><a class="menu-link" href="{% url 'sign-in.html' %}">Sign In</a></li>
+                                    <li class="menu-item"><a class="menu-link" href="{% url 'sign-up.html' %}">Sign Up</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -55,9 +55,9 @@
                                     <li class="menu-item"><a class="menu-link" href="{% url 'faq.html' %}">Help & FAQs</a></li>
                                     <li class="menu-item"><a class="menu-link" href="{% url 'term-conditions.html' %}">Terms of Conditions</a></li>
                                     <li class="menu-item"><a class="menu-link" href="{% url 'privacy-policy.html' %}">Privacy Policy</a></li>
-                                    <li class="menu-item"><a class="menu-link" href="refund-policy.html">Online Returns Policy</a></li>
-                                    <li class="menu-item"><a class="menu-link" href="shipping-return.html">Shipping & Return</a></li>
-                                    <li class="menu-item"><a class="menu-link" href="contact.html">Contact us</a></li>
+                                    <li class="menu-item"><a class="menu-link" href="{% url 'refund-policy.html' %}">Online Returns Policy</a></li>
+                                    <li class="menu-item"><a class="menu-link" href="{% url 'shipping-return.html' %}">Shipping & Return</a></li>
+                                    <li class="menu-item"><a class="menu-link" href="{% url 'contact.html' %}">Contact us</a></li>
                                 </ul>
                             </div>
                         </div>
