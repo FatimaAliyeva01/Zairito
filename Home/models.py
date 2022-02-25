@@ -1,5 +1,5 @@
-# from django.db import models
-# from sqlalchemy import null
+from django.db import models
+from sqlalchemy import null
 
 # class About(models.Model):
 #     image = models.ImageField(upload_to='about/', null=True, blank=True)
